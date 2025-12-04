@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-func day_2() {
-	file, err := os.Open("./inputs/2.txt")
+func main() {
+	file, err := os.Open("input.txt")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 	}

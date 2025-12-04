@@ -7,8 +7,8 @@ import (
 	"strings"
 )
 
-func day_13() {
-	input, err := os.ReadFile("./inputs/13.txt")
+func main() {
+	input, err := os.ReadFile("input.txt")
 	if err != nil {
 		fmt.Println("Error Reading file ", err)
 	}

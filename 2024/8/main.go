@@ -10,8 +10,8 @@ type Position struct {
 	x int
 }
 
-func day_8() {
-	input, err := os.ReadFile("./inputs/8.txt")
+func main() {
+	input, err := os.ReadFile("input.txt")
 
 	if err != nil {
 		fmt.Println("Error readinf file: ", err)

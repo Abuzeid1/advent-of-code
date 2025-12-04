@@ -7,8 +7,8 @@ import (
 	"strings"
 )
 
-func day_14() {
-	input, err := os.ReadFile("./inputs/14.txt")
+func main() {
+	input, err := os.ReadFile("input.txt")
 	maxX := 101
 	maxY := 103
 	if err != nil {

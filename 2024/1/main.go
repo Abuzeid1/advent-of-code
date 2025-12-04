@@ -9,8 +9,8 @@ import (
 	"strings"
 )
 
-func day_1() {
-	file, err := os.Open("./inputs/1.txt")
+func main() {
+	file, err := os.Open("input.txt")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		return

@@ -7,9 +7,9 @@ import (
 	"strconv"
 )
 
-func day_3() {
+func main() {
 	// input
-	data, err := os.ReadFile("./inputs/3.txt")
+	data, err := os.ReadFile("input.txt")
 	if err != nil {
 		fmt.Println("Error reading file: ", err)
 	}

@@ -7,8 +7,8 @@ import (
 )
 
 // grid search
-func day_4() {
-	input, err := os.ReadFile("./inputs/4.txt")
+func main() {
+	input, err := os.ReadFile("input.txt")
 	if err != nil {
 		fmt.Println("Error reading file: ", err)
 	}
